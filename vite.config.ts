@@ -5,4 +5,11 @@ import react from "@vitejs/plugin-react-swc";
 export default defineConfig({
   plugins: [react()],
   base: "/tg-contest-fe/",
+  css: {
+    modules: {
+      // Customize the CSS Modules naming pattern
+    //   localsConvention: 'camelCaseOnly', // Use camelCase for class names in JS
+      generateScopedName: '[name]__[local]___[hash:base64:5]', // Custom pattern for unique names
+    },
+  },
 });

@@ -35,7 +35,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18'  # Specify your Node.js version
+          node-version: '20'
 
       # Install dependencies
       - name: Install dependencies
@@ -43,13 +43,13 @@ jobs:
 
       # Build the static content
       - name: Build static content
-        run: npm run build  # Update to match your build command
+        run: npm run build
 
       # Upload the build directory as an artifact
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './build'  # Update to match your output directory
+          path: './dist'
 
       # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages

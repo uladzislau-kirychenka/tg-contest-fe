@@ -1,0 +1,18 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --primary: #007AFF;
+    --accent-blue: #007AFF;
+    --accent-cyan: #5AC8FA;
+    --accent-gold: #F1AA05;
+    --accent-purple: #AF51DE;
+    --accent-green: #35C759;
+    --separator: #3C3C435C;
+    --icons: #959595;
+    --label-secondaru: #8E8E93;
+    --label-tab-bar: #545458A6;
+    --label-date: #6D6D71;
+    --bg-secondary: #EFEFF3;
+    --bg-notification: #2D2D2DCC;
+    --bg-tab-bar: #F1F1F2BF;
+}
